@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercio Formulario HTML</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.jpeg" alt="Logo del Sitio Web"></a>
+        <h1>Universidad Tecnica Particular de Loja</h1>
+        <h2><strong>Crea una página web que contenga un formulario con los siguientes 
+            campos de información:</strong></h2>
+            <p>Título</p> 
+            <p>Nombres, con un control de tipo texto obligatorio y con autofoco.</p>
+            <p>Email, con un control de tipo email y obligatorio.</p>
+            <p>Web, con un control de tipo url que muestre la ayuda "URL de tu página web personal".</p>
+            <p>Fecha de Registro, con un control de tipo date.</p>
+            <p>Hora, con un control de tipo time.</p>
+            <p>Edad, con un control de tipo number que limite la entrada a un valor entre 18 y 65.</p>
+            <p>Contacto, con un control de tipo tel.</p>
+            <p>Color favorito, con un control de tipo color.</p>
+            <p>Un botón de envío.</p>
+            <p>Considera lo siguiente</p>
+            <p>El título de la página debe ser Ejercicio Formulario HTML.</p>
+            <p>El método de envío del formulario debe ser GET.</p>
+            <p>El destino del envío del formulario debe ser "https://www.utpl.edu.ec/".</p>
+            
+        <nav >
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="error.html">Pagina Arreglada</a></li>
+                <li><a href="Tabla.html">Tabla</a></li>
+                <li><a href="anclas.html">Anclas</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Formulario </h1>
+    <form action="https://www.utpl.edu.ec/" method ="get" target="_blank">
+        <p>
+            <p>Nombres: <input type="text" name="nombrecompleto" autofocus required></p>
+            <p>Correo electrónico: <input type="email" name="emails" multiple required></p>
+            <p>Ayuda: <input type="url" name="motordebusqueda" value="jlrobles3@utpl.edu.ec"></p>
+            <p>Fecha de registro: <input type="date" name="fechaesperada"></p>
+            <p>Hora: <input type="time" name="eta"></p>
+            <p>Edad: <input type="number" name="clavos" min ="18" max="65"></p>
+            <p>Contacto: <input type="tel" name="telefono" ></p>
+            <p>Color Favorito: <input type="color" name="colorprincipal"> </p>
+            <button type="button">Enviar</button>
+
+        </p>
+      </form>
+</body>
+</html>
